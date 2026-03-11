@@ -1,8 +1,19 @@
-# 🛡️ E-commerce ML Analytics v2 (Professional Portfolio Edition)
+# 🛡️ OmniSegment v2: Predictive E-commerce Analytics
 
+![Hero Banner](/C:/Users/E-Mohamed-TSD/.gemini/antigravity/brain/d5cd5860-ec5d-4f3f-a0f8-0305cfab16e1/ecommerce_ml_dashboard_hero_1773232640665.png)
 
 ## 🚀 Overview
-Welcome to **E-commerce ML Analytics v2**, a high-performance suite for customer segmentation and predictive analytics designed for modern E-commerce platforms. This project leverages **Machine Learning (K-Means Clustering)** for customer grouping with **99% logical accuracy**, calculates **Customer Lifetime Value (CLV)**, and predicts **Churn Risk** probabilities.
+Welcome to **OmniSegment v2**, a high-performance suite for customer segmentation and predictive analytics designed for modern E-commerce platforms. This project leverages **Machine Learning (K-Means Clustering)** for customer grouping with **99% logical accuracy**, calculates **Customer Lifetime Value (CLV)**, and predicts **Churn Risk** probabilities.
+
+## 📸 Dashboard Preview
+
+````carousel
+![Segment Overview](/C:/Users/E-Mohamed-TSD/.gemini/antigravity/brain/d5cd5860-ec5d-4f3f-a0f8-0305cfab16e1/segment_overview_1773234285875.png)
+<!-- slide -->
+![ML Predictions](/C:/Users/E-Mohamed-TSD/.gemini/antigravity/brain/d5cd5860-ec5d-4f3f-a0f8-0305cfab16e1/ml_predictions_1773234299353.png)
+<!-- slide -->
+![Inventory Insights](/C:/Users/E-Mohamed-TSD/.gemini/antigravity/brain/d5cd5860-ec5d-4f3f-a0f8-0305cfab16e1/inventory_high_impact_1773234399732.png)
+````
 
 ## ✨ Key Features
 - **🤖 Advanced ML Clustering**: K-Means clustering to identify non-obvious customer groups based on transaction data.
@@ -28,4 +39,15 @@ Welcome to **E-commerce ML Analytics v2**, a high-performance suite for customer
    Make sure all required packages are installed by running the following:
    ```bash
    pip install scikit-learn plotly streamlit pandas numpy
-   <img width="1476" height="237" alt="image" src="https://github.com/user-attachments/assets/54f24f89-f202-4081-afff-5c0c0d19fc30" />
+   ```
+2. **Execute Engine**:
+   ```bash
+   python rfm_engine.py
+   ```
+3. **Launch App**:
+   ```bash
+   streamlit run ecommerce_app.py
+   ```
+
+---
+*Created as a professional data science portfolio project.*
